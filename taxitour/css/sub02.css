@@ -1,0 +1,83 @@
+@charset "utf-8";
+
+
+/* reset CSS */
+*{padding:0; margin:0; text-decoration:none; box-sizing:border-box;}
+ul, ol li{list-style: none;}
+a {text-decoration: none; color:#000; }
+a:hover, a:focus{text-decoration:none; outline:none;}
+img{vertical-align: top; border:0 none;}
+.clearfix::before, .clearfix::after, .clearfix:before, .clearfix:after{content:""; display: block;}
+.clearfix::after, .clearfix:after{clear: both;}
+
+
+body{min-width: 1200px; font-family: "Roboto", "Noto Sans KR", sans-serif;}
+#wrap{width:100%; margin:0 auto; position:relative;}
+#header{height:30px; background:#00a651; color:#fff; }
+#header .upper>h1{display:inline-block; font-size:12px; padding-left:10px;}
+#header .upper>h1>a{color:#fff;}
+#header .upper ul{float:right; padding-right:20px;}
+#header .upper ul li{float:left; line-height:30px; font-size:12px; }
+#header .upper ul li a{color:#fff;}
+#header .upper ul li span{margin:0px 7px;}
+
+#main{width:100%; height:440px; background-image:url("../img/sub01_bg.jpg"); background-repeat:no-repeat;}
+#main .main00{width:1200px; height:440px; margin:0 auto; position:relative;}
+
+#main .main00 .search02 p{font-size:35px; line-height:45px; color:#fff; padding-top:80px;}
+#main .main00 .search02 p span{font-size:40px; font-style:italic;}
+#main .main00 .search02>.searchbox>form{margin-top:20px; position:relative;}
+#main .main00 .search02>.searchbox>form>input{width:500px; height:40px; line-height:40px; border:1px solid #fff; opacity:0.7; padding:5px; outline:none; float:left;}
+#main .main00 .search02>.searchbox>form>button{position:absolute; left:460px; top:0px; width:40px; height:40px; background:url("../img/searchfff.png") center no-repeat; border:none;}
+
+#wraper{width:100%; margin:0 auto; position:relative;}
+.menu{height:55px; border-bottom:2px solid #000;}
+.menu ul{float:right;}
+.menu ul li{float:left; margin-right:12px; font-size:18px; line-height:55px;}
+.menu ul li a{display:block; color:#000;}
+.menu ul li a:hover{font-weight:600;}
+
+.main11{width:1200px; margin:0 auto; position:relative; margin-top:100px;}
+.main11 h2{position:absolute; width:90px; height:30px; text-align:center; background-color:#000; color:#fff; font-size:15px; font-weight:300; border-radius:7px 7px 0px 0px; left:0px; top:-30px; line-height:30px;}
+.main11 .main11_top{width:1200px; height:450px; margin:0 auto; position:relative;}
+.main11 .main11_part11{width:630px; height:450px; border:1px solid #000; padding-top:20px; padding-left:35px; margin-right:5px; float:left;}
+.main11 .main11_part11>ul{float:left; margin-right:30px; margin-top:60px;}
+.main11 .main11_part11>ul>li:first-child{font-size:25px;}
+.main11 .main11_part11>ul>li:nth-child(2){font-size:18px; line-height:30px;}
+.main11 .main11_part11>.part11_right{width:160px; height:400px; border:1px solid #d7d7d7;  float:left;}
+.main11 .main11_part11>.part11_right p{background:#f3f1f1; height:60px; padding:15px 0px 0px 20px; font-size:15px; line-height:16px;}
+.main11 .main11_part11>.part11_right ul{margin-left:15px; font-size:15px; line-height:16px;}
+.main11 .main11_part11>.part11_right ul:nth-of-type(1){background:url("../img/01_part03_01.jpg") no-repeat; padding-top:70px; margin-top:15px;}
+.main11 .main11_part11>.part11_right ul:nth-of-type(2){background:url("../img/01_part03_02.jpg") no-repeat; padding-top:110px; margin-top:20px; width:160px;}
+.main11 .main11_part11>.part11_right ul .part11_title{font-weight:500;}
+.main11 .main11_part22{width:565px; height:450px; border:1px solid #000; float:left;}
+.main11 .main11_part22>h3{width:450px; margin:0 auto; font-size:16px; font-weight:400; font-style:italic; margin-top:50px;}
+.main11 .main11_part22>ul{width:450px; margin:30px auto;}
+.main11 .main11_part22>ul>li{display:block; border-bottom:1px solid #d7d7d7; height:45px; line-height:45px; font-weight:400;}
+.main11 .main11_part22>ul>li>span{border-left:1px solid #000; padding:0 10px; margin-left:10px; color:#444;}
+.main11 .main11_part22>a{display:block; color:#fff; background:#000; width:120px; height:45px; line-height:45px; text-align:center; margin:40px auto;} 
+.star{color:#e2a500;}
+
+.main11 .main11_reserve{width:1100px; height:500px; margin:50px auto; position:relative; border:1px solid #d7d7d7; background-color:#F6F6F6; color:#444;}
+.main11 .main11_reserve .reserve11{padding:30px 0 0 35px; float:left;}
+.main11 .main11_reserve .reserve11 h3{height:50px;}
+.main11 .main11_reserve .reserve11>ul>li{display:block; border:1px solid #d7d7d7; height:35px; line-height:35px; background:#fff; width:500px; margin-bottom:10px; padding:0 5px;}
+.main11 .main11_reserve .reserve11>ul>li>span{float:right;}
+.main11 .main11_reserve .reserve11 a{display:inline-block; color:#fff; background:#000; width:120px; height:45px; line-height:45px; text-align:center;
+											margin:20px 180px;}
+.main11 .main11_reserve .reserve22{width:500px; padding:30px 0 0 0; margin-left:50px; float:left; position:relative;}
+.main11 .main11_reserve .reserve22 h3{padding-bottom:22px}
+.main11 .main11_reserve .reserve22 input[type="text"]{width:500px; height:270px; border:1px solid #d7d7d7; font-size:12px;}
+.main11 .main11_reserve .reserve22 textarea{position:absolute; left:10px; top:90px; width:480px; height:250px; font-size:12px; border:0 none; 
+										outline:none; resize:none; color:#747474; resize: none; wrap:hard; overflow:hidden;}
+.main11 .main11_reserve .reserve22 input[type="password"]{width:500px; height:30px; margin-top:5px; border:1px solid #d7d7d7; outline:none; padding-left:10px;}
+.main11 .main11_reserve .reserve22 a{display:inline-block; color:#fff; background:#000; width:120px; height:45px; line-height:45px; text-align:center;
+											margin:30px 180px;}
+
+
+#footer{width:100%; margin:0 auto; border-top:2px solid #000; margin-top:105px; }
+#footer .footer_line{width:100%; margin-top:2px; border-top:1px solid #000;}
+#footer .footer_inner{width:1200px; height:225px; margin:0 auto; padding-top:30px;}
+#footer .footer_inner p:nth-child(1){float:left; font-size:17px; line-height:24px;}
+#footer .footer_inner p:nth-child(2){float:right; color:#363636; font-size:17px; line-height:22px;}
+#footer .footer_inner p:nth-child(3){float:left; font-size:13px; padding-top:40px; line-height:20px; width:1200px; width:1200px;}

@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+
+/* reset CSS */
+*{padding:0; margin:0; text-decoration:none; box-sizing:border-box;}
+ul, ol li{list-style: none;}
+a {text-decoration: none; color:#000; }
+a:hover, a:focus{text-decoration:none; outline:none;}
+img{vertical-align: top; border:0 none;}
+.clearfix::before, .clearfix::after, .clearfix:before, .clearfix:after{content:""; display: block;}
+.clearfix::after, .clearfix:after{clear: both;}
+
+
+body{min-width: 1200px; font-family: "Roboto", "Noto Sans KR", sans-serif;}
+#wrap{width:100%; margin:0 auto; position:relative;}
+#header{height:30px; background:#00a651; color:#fff; }
+#header .upper>h1{display:inline-block; font-size:12px; padding-left:10px;}
+#header .upper>h1>a{color:#fff;}
+#header .upper ul{float:right; padding-right:20px;}
+#header .upper ul li{float:left; line-height:30px; font-size:12px; }
+#header .upper ul li a{color:#fff;}
+#header .upper ul li span{margin:0px 7px;}
+
+#main{width:100%; height:440px; background-image:url("../img/sub01_bg.jpg"); background-repeat:no-repeat;}
+#main .main00{width:1200px; margin:0 auto; position:relative;}
+#main .main00>p{color:#f4f4f4; padding-top:120px; font-size:28px; line-height:40px;}
+#main .main00 p span{font-style:italic;}
+
+#wraper{width:100%; margin:0 auto; position:relative;}
+.menu{height:55px; border-bottom:2px solid #000;}
+.menu ul{float:right;}
+.menu ul li{float:left; margin-right:12px; font-size:18px; line-height:55px;}
+.menu ul li a{display:block; color:#000;}
+.menu ul li a:hover{font-weight:600;}
+
+.sub01_txt{width:1200px; margin:0 auto; position:relative; padding-top:80px;}
+.sub01_txt .txt_part01{background:url("../img/txt_part01.png") no-repeat; width:1155px; height:805px; }
+.sub01_txt .txt_part02{background:url("../img/txt_part02.png") no-repeat; background-size:313px 80px; }
+.sub01_txt .txt_part02 p:first-child{padding-top:150px;}
+.sub01_txt .txt_part02 p{padding-left:40px; line-height:30px; color:#444;}
+.sub01_txt .txt_part03{background:url("../img/txt_part04.png") no-repeat; width:298px; height:296px; position:absolute; right:30px; bottom:-120px;}
+
+
+
+#footer{width:100%; margin:0 auto; border-top:2px solid #000; margin-top:255px; }
+#footer .footer_line{width:100%; margin-top:2px; border-top:1px solid #000;}
+#footer .footer_inner{width:1200px; height:225px; margin:0 auto; padding-top:30px;}
+#footer .footer_inner p:nth-child(1){float:left; font-size:17px; line-height:24px;}
+#footer .footer_inner p:nth-child(2){float:right; color:#363636; font-size:17px; line-height:22px;}
+#footer .footer_inner p:nth-child(3){float:left; font-size:13px; padding-top:40px; line-height:20px; width:1200px;}

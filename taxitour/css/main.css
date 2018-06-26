@@ -1,0 +1,108 @@
+@charset "utf-8";
+
+
+/* reset CSS */
+*{padding:0; margin:0; text-decoration:none; box-sizing:border-box;}
+ul, ol li{list-style: none;}
+a {text-decoration: none; color:#000; }
+a:hover, a:focus{text-decoration:none; outline:none;}
+img{vertical-align: top; border:0 none;}
+.clearfix::before, .clearfix::after, .clearfix:before, .clearfix:after{content:""; display: block;}
+.clearfix::after, .clearfix:after{clear: both;}
+
+
+body{min-width: 1200px; font-family: "Roboto", "Noto Sans KR", sans-serif;}
+#wrap{width:100%; margin:0 auto; position:relative;}
+#header{height:30px; background:#00a651; color:#fff; }
+#header .upper>h1{display:inline-block; font-size:12px; padding-left:10px;}
+#header .upper>h1>a{color:#fff;}
+#header .upper ul{float:right; padding-right:20px;}
+#header .upper ul li{float:left; line-height:30px; font-size:12px; }
+#header .upper ul li a{color:#fff;}
+#header .upper ul li span{margin:0px 7px;}
+
+#main{width:100%; height:440px; background-image:url("../img/mainimg.jpg"); background-repeat:no-repeat;}
+#main .main00{width:1200px; margin:0 auto; position:relative;}
+#main .main00>p{color:#fff; padding-top:80px;}
+#main .main00 p strong{font-size:70px; font-style:italic;}
+#main .main00 p span{font-size:50px;}
+
+#main .main00 .search form{border:none; }
+#main .main00 .search form p{font-size:20px; color:#fff; line-height:50px; padding-top:40px;}
+#main .main00 .search form input{display:block; width:500px; height:48px; border:none; float:left; padding:0px 5px; font-size:14px; }
+#main .main00 .search form input:focus{outline:none;}
+#main .main00 .search form button{width:50px; height:48px; background:url("../img/search01.jpg") no-repeat center #00a651; border:none;}
+
+#wraper{width:100%; margin:0 auto; position:relative;}
+
+.menu{height:55px; border-bottom:2px solid #000;}
+.menu ul{float:right;}
+.menu ul li{float:left; margin-right:12px; font-size:18px; line-height:55px;}
+.menu ul li a{display:block; color:#000;}
+.menu ul li a:hover{font-weight:600; }
+
+.box01{width:1200px; height:450px; margin:0 auto; border:1px solid #d7d7d7; margin-top:60px;}
+.box01 .b01_part01{padding:60px 0px 0px 40px; float:left; }
+.box01 .b01_part01 p strong{font-size:52px; font-style:italic;}
+.box01 .b01_part01 p{font-size:38px; line-height:40px; margin-top:12px;}
+.box01 .b01_part01 .search02>form{border:none; margin-top:100px;}
+.box01 .b01_part01 .search02>form>div{ line-height:45px; border:1px solid #000;  float:left; padding:0px 5px; }
+.box01 .b01_part01 .search02>form>div>input{font-size:14px; line-height:18px; border:none;  width:260px; height:45px; outline:none;}
+.box01 .b01_part01 .search02>form>div>input:focus{outline:none;}
+.box01 .b01_part01 .search02>form>button{width:50px; height:48px; background:url("../img/search02.jpg") no-repeat center #000; border:none; float:left;}
+
+.box01 .b01_part02{padding:40px 0px 0px 40px; float:left;}
+.box01 .b01_part02 dl dt{font-size:18px; line-height:22px; color:#f50000;}
+.box01 .b01_part02 dl dd{font-size:30px;}
+.box01 .b01_part02 dl dd img{width:90%;}
+.box01 .b01_part02 dl dd:nth-child(3){margin:5px 0;}
+.box01 .b01_part02 dl dd:nth-child(4) span{font-size:18px;}
+
+.star{color:#e2a500;}
+.box01 .b01_part03{margin:25px 0 0 0; width:160px; height:400px; border:1px solid #d7d7d7; float:left;}
+.box01 .b01_part03 dl dt{background:#f3f1f1; height:60px; padding:15px 0px 0px 20px; font-size:15px; line-height:16px;}
+.box01 .b01_part03 dl dd a{}
+.box01 .b01_part03 dl dd a img{display:block; margin:0 auto; padding-top:15px;}
+.box01 .b01_part03 dl dd{font-size:15px; line-height:18px; margin:0 10px;} 
+
+.box01 .b01_part04{margin:30px 0px 0px 20px; float:left;}
+.box01 .b01_part04 dt{text-align:left; margin:30px 0 30px 0; }
+.box01 .b01_part04 dd{color:#595959; font-size:15px; line-height:25px; padding-top:50px;}
+.box01 .b01_part04 dd strong{margin-right:18px;}
+
+.box02{width:1200px; margin:0 auto;  margin-top:100px; border:1px solid #d7d7d7;}
+.box02 .box02_inner{padding:35px;}
+.box02 .box02_inner dt{font-size:30px; line-height:30px; margin-bottom:25px;}
+.box02 .box02_inner dt span{font-size:18px; color:#868686; }
+
+.box02 .box02_inner dd a{display:block;}
+.box02 .box02_inner dd a dl{border:1px solid #d7d7d7; float:left; width:260px; height:350px;}
+.box02 .box02_inner dd a dl dt img{width:259px; height:180px;}
+.box02 .box02_inner dd a .box02_in_inner{margin-right:28px;}
+.box02 .box02_inner dd a .last_inner{margin-right:0px;}
+
+.box02 .box02_inner dd a .box02_in_inner dd{padding-left:10px; padding-right:5px;}
+.box02 .box02_inner dd a .box02_in_inner dd:nth-child(2){font-size:20px; color:#363636; font-weight:500; line-height:30px;}
+.box02 .box02_inner dd a .box02_in_inner dd:nth-child(3){font-size:14px; color:#363636; line-height:20px;}
+.box02 .box02_inner dd a .box02_in_inner dd:nth-child(4){font-size:18px; color:#363636; line-height:20px;}
+.box02 .box02_inner dd a .box02_in_inner dd:nth-child(5){font-size:18px; color:#eeaf04; line-height:25px;}
+.box02 .box02_inner dd a .box02_in_inner dd:nth-child(6){font-size:14px; color:#363636; font-weight:500; margin-bottom:10px;}
+
+.box03{width:1200px; height:550px; margin:0 auto; border:1px solid #d7d7d7; margin-top:50px; }
+.box03 .box03_inner{padding:5px 5px 0px 35px;}
+.box03 .box03_inner .b03_part01 p{margin-top:34px; font-size:30px; line-height:30px; margin-bottom:38px;}
+.box03 .box03_inner .b03_part01 span{font-size:18px; color:#868686; }
+.box03 .box03_inner .b03_part01{margin-right:25px; float:left;}
+.box03 .box03_inner .b03_part02{margin-top:35px;}
+.box03 .box03_inner .b03_part02 ul li{float:left; padding-top:25px; line-height:30px; margin-left:15px; display:inline-block;}
+.box03 .box03_inner .b03_part02 ul li a span{display:block; font-size:14px;}
+.box03 .box03_inner .b03_part02 ul li a img{width:212px; height:180px;}
+
+
+
+#footer{width:100%; margin:0 auto; border-top:2px solid #000; margin-top:105px;}
+#footer .footer_line{width:100%; margin-top:2px; border-top:1px solid #000;}
+#footer .footer_inner{width:1200px; height:225px; margin:0 auto; padding-top:30px;}
+#footer .footer_inner p:nth-child(1){float:left; font-size:17px; line-height:24px;}
+#footer .footer_inner p:nth-child(2){float:right; color:#363636; font-size:17px; line-height:22px;}
+#footer .footer_inner p:nth-child(3){float:left; font-size:13px; padding-top:40px; line-height:20px; width:1200px;}

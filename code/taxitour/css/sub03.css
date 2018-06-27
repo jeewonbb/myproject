@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+
+/* reset CSS */
+*{padding:0; margin:0; text-decoration:none; box-sizing:border-box;}
+ul, ol li{list-style: none;}
+a {text-decoration: none; color:#000; }
+a:hover, a:focus{text-decoration:none; outline:none;}
+img{vertical-align: top; border:0 none;}
+.clearfix::before, .clearfix::after, .clearfix:before, .clearfix:after{content:""; display: block;}
+.clearfix::after, .clearfix:after{clear: both;}
+
+
+body{min-width: 1200px; font-family: "Roboto", "Noto Sans KR", sans-serif;}
+#wrap{width:100%; margin:0 auto; position:relative;}
+#header{height:30px; background:#00a651; color:#fff; }
+#header .upper>h1{display:inline-block; font-size:12px; padding-left:10px;}
+#header .upper>h1>a{color:#fff;}
+#header .upper ul{float:right; padding-right:20px;}
+#header .upper ul li{float:left; line-height:30px; font-size:12px; }
+#header .upper ul li a{color:#fff;}
+#header .upper ul li span{margin:0px 7px;}
+
+#main{width:100%; height:440px; background-image:url("../img/sub01_bg.jpg"); background-repeat:no-repeat;}
+#main .main00{width:1200px; margin:0 auto; position:relative;}
+#main .main00>p{color:#f4f4f4; padding-top:120px; font-size:28px; line-height:40px;}
+#main .main00 p span{font-style:italic;}
+
+#wraper{width:100%; margin:0 auto; position:relative;}
+.menu{height:55px; border-bottom:2px solid #000;}
+.menu ul{float:right;}
+.menu ul li{float:left; margin-right:12px; font-size:18px; line-height:55px;}
+.menu ul li a{display:block; color:#000;}
+.menu ul li a:hover{font-weight:600;}
+
+#wraper .main11{width:1200px; margin:0 auto; position:relative;}
+#wraper .main11>h3{background:#000; color:#fff; height:40px; line-height:35px; text-align:center; margin-top:100px;}
+#wraper .main11 .course01{width:1200px; height:450px; background:url("../img/sub03_01.jpg") center no-repeat;}
+#wraper .main11 .course02{width:436px; height:283px; background:url("../img/sub03_02.jpg") center no-repeat; margin-left:70px;}
+#wraper .main11 .course02 .course02_txt{margin-left:500px; float:left; width:550px; margin-top:40px;}
+#wraper .main11 .course02 .course02_txt>h3{font-size:25px; line-height:50px;}
+#wraper .main11 .course02 .course02_txt>p{font-size:15px; line-height:25px;}
+#wraper .main11 .course02 .course02_txt>p>strong{font-size:17px; padding-right:10px;}
+#wraper .main11 .course03{margin-top:100px; margin-left:70px; }
+#wraper .main11 .course03>h3{line-height:50px;}
+#wraper .main11 .course03>p{line-height:30px;}
+
+
+#footer{width:100%; margin:0 auto; border-top:2px solid #000; margin-top:255px; }
+#footer .footer_line{width:100%; margin-top:2px; border-top:1px solid #000;}
+#footer .footer_inner{width:1200px; height:225px; margin:0 auto; padding-top:30px;}
+#footer .footer_inner p:nth-child(1){float:left; font-size:17px; line-height:24px;}
+#footer .footer_inner p:nth-child(2){float:right; color:#363636; font-size:17px; line-height:22px;}
+#footer .footer_inner p:nth-child(3){float:left; font-size:13px; padding-top:40px; line-height:20px; width:1200px;}
